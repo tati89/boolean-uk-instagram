@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Salvador Dali",
+      "avatar": "https://uploads5.wikiart.org/images/salvador-dali.jpg!Portrait.jpg"
+    },
+    {
+      "id": 2,
+      "username": "Picasso",
+      "avatar": "https://www.sartle.com/sites/default/files/images/artist/pablo-picasso-137216-5115406.jpg"
+    },
+    {
+      "id": 3,
+      "username": "Van Gogh",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3K588mpXWsXuFcE26ZsuTRN2IeFeKCub8hA&usqp=CAU"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "A tree in blossom",
+      "content": "Spring is finally here... I just love the colours.",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1616745309504-0cb79e9ae590?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "alt": "a tree in blossom"
+      },
+      "likes": 0,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "A tale of fire",
+      "content": "I can't believe what I saw staring into the depths of a fiery demon!!",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1516537219851-920e2670c6e3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzd8fHZvbGNhbm98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "alt": "a volcano mid-eruption"
+      },
+      "likes": 0,
+      "userId": 3
+    },
+    {
+      "id": 3,
+      "title": "A queue at the Arctic Post Office",
+      "content": "The queue, a phenomenon that exists all over the world.",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1504415882223-d253dba3562e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4MHw2c01WalRMU2tlUXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "alt": "three killer whales lined up"
+      },
+      "likes": 0,
+      "userId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "What a great photo!!",
+      "userId": 3,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "content": "So beautiful... perfect!",
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "content": "Wow!! Where is that?",
+      "userId": 1,
+      "postId": 2
+    },
+    {
+      "id": 4,
+      "content": "That looks amazing... I wish I was there!",
+      "userId": 2,
+      "postId": 2
+    },
+    {
+      "id": 5,
+      "content": "What a great photo!!",
+      "userId": 2,
+      "postId": 2
+    },
+    {
+      "id": 6,
+      "content": "How did you capture that... perfect timing!",
+      "userId": 3,
+      "postId": 3
+    },
+    {
+      "content": "Love it!",
+      "userId": 1,
+      "postId": 1,
+      "id": 7
+    },
+    {
+      "content": "Soo cool!",
+      "userId": 2,
+      "postId": 3,
+      "id": 8
+    },
+    {
+      "content": "Beauty!",
+      "userId": 1,
+      "postId": 3,
+      "id": 9
+    },
+    {
+      "content": "ggg",
+      "userId": 1,
+      "postId": 1,
+      "id": 10
+    }
+  ]
+}
